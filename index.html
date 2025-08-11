@@ -3,37 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>First-Time Tax Firm | Professional Tax Services</title>
+    <meta name="description" content="Professional tax preparation and consulting services">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span><i class="fas fa-phone"></i> (555) 123-4567</span>
+            <span><i class="fas fa-envelope"></i> contact@yourtaxfirm.com</span>
+        </div>
+    </div>
+
+    <!-- Navigation 1 -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <h1><span class="highlight">FirstTime</span>TaxFirm</h1> <!-- Title -->
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <main>
-        <section id="hero">
-            <h1>Welcome to My Website</h1>
-            <p>This is a sample website built with HTML, CSS, and JavaScript.</p>
-            <button id="cta-button">Click Me</button>
-        </section>
-        
-        <section id="features">
-            <!-- Content will go here -->
-        </section>
-    </main>
-    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Expert Tax Solutions for Your Business & Personal Needs</h1>
+            <p>Maximize your refunds and minimize your stress with our professional tax services</p>
+            <a href="contact.html" class="btn">Get a Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <h2>Why Choose Our Tax Services</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Professionals</h3>
+                    <p>Our team includes CPAs and Enrolled Agents with years of experience.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-lock"></i>
+                    <h3>Secure & Confidential</h3>
+                    <p>Your financial information is protected with bank-level security.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Maximum Refunds</h3>
+                    <p>We find every deduction and credit you're entitled to.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tax Deadline Counter -->
+    <section class="deadline-counter">
+        <div class="container">
+            <h2>Time Until Tax Deadline:</h2>
+            <div id="countdown"></div>
+            <p>Don't wait until the last minute! Schedule your appointment today.</p>
+        </div>
+    </section>
+
+    <!-- Navigation 2 -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="resources.html">Tax Resources</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Tax Street, City, ST 12345</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> mfmxnt@ftt.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Hours</h3>
+                <p>Monday-Saturday: 9am - 6pm</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 FTT TaxFirm. All rights reserved.</p>
+        </div>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
