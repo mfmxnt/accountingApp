@@ -1,0 +1,66 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 2rem;
+    background: #e8491d;
+    color: white;
+}
+
+button {
+    background: #35424a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #4e5d6d;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #35424a;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
